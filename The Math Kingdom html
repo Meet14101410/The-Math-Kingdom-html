@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Math Kingdom</title>
+</head>
+<body>
+    <h1>The Math Kingdom</h1>
+    <p>Welcome to the kingdom of numbers!</p>
+    <div id="game"></div>
+    <button onclick="startGame()">Play</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
