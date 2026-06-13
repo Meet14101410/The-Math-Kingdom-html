@@ -1,0 +1,22 @@
+body{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+h1{
+  color: #4b0082;
+}
+
+#game{
+  margin: 20px auto;
+  padding: 20px;
+  width: 250px;
+  background: white;
+  border-radius: 10px;
+}
+
+button{
+  padding: 10px 20px;
+  cursor: pointer;
+}
