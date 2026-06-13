@@ -1,0 +1,13 @@
+function startGame() {
+  let a = Math.floor(Math.random() * 10) + 1;
+  let b = Math.floor(Math.random() * 10) + 1;
+
+  let answer = prompt(`What is ${a} + ${b}?`);
+
+  if (Number(answer) === a + b) {
+    document.getElementById("game").innerHTML = "🎉 Correct! You earned a crown!";
+  } else {
+    document.getElementById("game").innerHTML =
+      `❌ Wrong! The answer was ${a + b}.`;
+  }
+}
